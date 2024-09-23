@@ -1,4 +1,4 @@
-#Week2: Day 5 - Draw a Picture with House Function
+#Draw a Picture with House Function
 #Melissa Usher
 
 import turtle
@@ -19,9 +19,9 @@ def house(len):
 
 def main():
     turtle.speed(0)
-    turtle.color("blue")
+    turtle.color("green")
     house(100)
-    turtle.color("red")
+    turtle.color("pink")
     turtle.penup()
     turtle.forward(150)
     turtle.pendown()
