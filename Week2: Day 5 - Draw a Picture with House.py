@@ -19,9 +19,9 @@ def house(len):
 
 def main():
     turtle.speed(0)
-    turtle.color("green")
+    turtle.color("yellow")
     house(100)
-    turtle.color("pink")
+    turtle.color("gray")
     turtle.penup()
     turtle.forward(150)
     turtle.pendown()
