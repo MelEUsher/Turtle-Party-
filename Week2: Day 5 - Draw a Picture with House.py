@@ -19,13 +19,18 @@ def house(len):
 
 def main():
     turtle.speed(0)
-    turtle.color("yellow")
+    turtle.color("green")
     house(100)
     turtle.color("gray")
     turtle.penup()
     turtle.forward(150)
     turtle.pendown()
     house(50)
+    turtle.color("red")
+    turtle.penup()
+    turtle. backward(275)
+    turtle.pendown()
+    house(75)
 
 main()
 
